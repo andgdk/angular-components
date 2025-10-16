@@ -52,8 +52,8 @@ catalogs:
       specifier: 20.0.0
       version: 20.0.0
     '@angular/ssr':
-      specifier: 20.0.0
-      version: 20.0.0
+      specifier: 20.3.6
+      version: 20.3.6
     '@schematics/angular':
       specifier: 20.0.0
       version: 20.0.0
@@ -418,7 +418,7 @@ importers:
         version: 20.0.0(2z67y6asict5bh4qa55wsiw6vm)
       '@angular/ssr':
         specifier: 'catalog:'
-        version: 20.0.0(@angular/common@20.0.0(@angular/compiler-cli@20.0.0(@angular/compiler@20.0.0)(typescript@5.8.3))(@angular/core@20.0.0(@angular/compiler@20.0.0)(rxjs@6.6.7)(zone.js@0.15.0))(rxjs@6.6.7))(@angular/core@20.0.0(@angular/compiler@20.0.0)(rxjs@6.6.7)(zone.js@0.15.0))(@angular/platform-server@20.0.0(55cc2hhoyu4jmltgjz2lflk43q))(@angular/router@20.0.0(2z67y6asict5bh4qa55wsiw6vm))
+        version: 20.3.6(@angular/common@20.0.0(@angular/compiler-cli@20.0.0(@angular/compiler@20.0.0)(typescript@5.8.3))(@angular/core@20.0.0(@angular/compiler@20.0.0)(rxjs@6.6.7)(zone.js@0.15.0))(rxjs@6.6.7))(@angular/core@20.0.0(@angular/compiler@20.0.0)(rxjs@6.6.7)(zone.js@0.15.0))(@angular/platform-server@20.0.0(55cc2hhoyu4jmltgjz2lflk43q))(@angular/router@20.0.0(2z67y6asict5bh4qa55wsiw6vm))
       '@angular/youtube-player':
         specifier: workspace:*
         version: link:../src/youtube-player
@@ -443,7 +443,7 @@ importers:
     devDependencies:
       '@angular-devkit/build-angular':
         specifier: 'catalog:'
-        version: 20.0.0(odctl5kqmwuo4crhqwrfxalr2a)
+        version: 20.0.0(3dc6e27cjwghkb74fy7e7ngqoi)
       '@angular/cli':
         specifier: 'catalog:'
         version: 20.0.0(@types/node@22.14.1)(chokidar@4.0.3)
@@ -956,8 +956,8 @@ packages:
       '@angular/platform-browser': 20.0.0
       rxjs: ^6.5.3 || ^7.4.0
 
-  '@angular/ssr@20.0.0':
-    resolution: {integrity: sha512-ezca+E3A3zRbMDmvyyclgDX38JvmXb0ZvqGkgQGURa12+5dHvwy8hnDT1eBoRxXBedp+cnIkxXxLjTzXb4/4Hw==}
+  '@angular/ssr@20.3.6':
+    resolution: {integrity: sha512-YABzCGfjwQ+WSUuInwBGS35pNO2zUHJeCzyj6CZ0sqRVR0qt3KvEzk1RVvR33X1bKePFHurn8NYPkcvLSpBvhQ==}
     peerDependencies:
       '@angular/common': ^20.0.0
       '@angular/core': ^20.0.0
@@ -8799,13 +8799,13 @@ snapshots:
     transitivePeerDependencies:
       - chokidar
 
-  '@angular-devkit/build-angular@20.0.0(odctl5kqmwuo4crhqwrfxalr2a)':
+  '@angular-devkit/build-angular@20.0.0(3dc6e27cjwghkb74fy7e7ngqoi)':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@angular-devkit/architect': 0.2000.0(chokidar@4.0.3)
       '@angular-devkit/build-webpack': 0.2000.0(chokidar@4.0.3)(webpack-dev-server@5.2.1(webpack@5.99.8(esbuild@0.25.5)))(webpack@5.99.8(esbuild@0.25.5))
       '@angular-devkit/core': 20.0.0(chokidar@4.0.3)
-      '@angular/build': 20.0.0(xktmlw3bev2p6r3f65zty3v6gm)
+      '@angular/build': 20.0.0(bqj7ng62hve6nibvblhns4yi4y)
       '@angular/compiler-cli': 20.0.0(@angular/compiler@20.0.0)(typescript@5.8.3)
       '@babel/core': 7.27.1
       '@babel/generator': 7.27.1
@@ -8863,7 +8863,7 @@ snapshots:
       '@angular/localize': 20.0.0(@angular/compiler-cli@20.0.0(@angular/compiler@20.0.0)(typescript@5.8.3))(@angular/compiler@20.0.0)
       '@angular/platform-browser': 20.0.0(@angular/animations@20.0.0(@angular/common@20.0.0(@angular/compiler-cli@20.0.0(@angular/compiler@20.0.0)(typescript@5.8.3))(@angular/core@20.0.0(@angular/compiler@20.0.0)(rxjs@6.6.7)(zone.js@0.15.0))(rxjs@6.6.7))(@angular/compiler-cli@20.0.0(@angular/compiler@20.0.0)(typescript@5.8.3))(@angular/core@20.0.0(@angular/compiler@20.0.0)(rxjs@6.6.7)(zone.js@0.15.0)))(@angular/common@20.0.0(@angular/compiler-cli@20.0.0(@angular/compiler@20.0.0)(typescript@5.8.3))(@angular/core@20.0.0(@angular/compiler@20.0.0)(rxjs@6.6.7)(zone.js@0.15.0))(rxjs@6.6.7))(@angular/compiler-cli@20.0.0(@angular/compiler@20.0.0)(typescript@5.8.3))(@angular/core@20.0.0(@angular/compiler@20.0.0)(rxjs@6.6.7)(zone.js@0.15.0))
       '@angular/platform-server': 20.0.0(55cc2hhoyu4jmltgjz2lflk43q)
-      '@angular/ssr': 20.0.0(@angular/common@20.0.0(@angular/compiler-cli@20.0.0(@angular/compiler@20.0.0)(typescript@5.8.3))(@angular/core@20.0.0(@angular/compiler@20.0.0)(rxjs@6.6.7)(zone.js@0.15.0))(rxjs@6.6.7))(@angular/core@20.0.0(@angular/compiler@20.0.0)(rxjs@6.6.7)(zone.js@0.15.0))(@angular/platform-server@20.0.0(55cc2hhoyu4jmltgjz2lflk43q))(@angular/router@20.0.0(2z67y6asict5bh4qa55wsiw6vm))
+      '@angular/ssr': 20.3.6(@angular/common@20.0.0(@angular/compiler-cli@20.0.0(@angular/compiler@20.0.0)(typescript@5.8.3))(@angular/core@20.0.0(@angular/compiler@20.0.0)(rxjs@6.6.7)(zone.js@0.15.0))(rxjs@6.6.7))(@angular/core@20.0.0(@angular/compiler@20.0.0)(rxjs@6.6.7)(zone.js@0.15.0))(@angular/platform-server@20.0.0(55cc2hhoyu4jmltgjz2lflk43q))(@angular/router@20.0.0(2z67y6asict5bh4qa55wsiw6vm))
       esbuild: 0.25.5
       karma: 6.4.4
       protractor: 7.0.0
@@ -8931,7 +8931,7 @@ snapshots:
       - '@angular/compiler-cli'
       - supports-color
 
-  '@angular/build@20.0.0(xktmlw3bev2p6r3f65zty3v6gm)':
+  '@angular/build@20.0.0(bqj7ng62hve6nibvblhns4yi4y)':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@angular-devkit/architect': 0.2000.0(chokidar@4.0.3)
@@ -8968,7 +8968,7 @@ snapshots:
       '@angular/localize': 20.0.0(@angular/compiler-cli@20.0.0(@angular/compiler@20.0.0)(typescript@5.8.3))(@angular/compiler@20.0.0)
       '@angular/platform-browser': 20.0.0(@angular/animations@20.0.0(@angular/common@20.0.0(@angular/compiler-cli@20.0.0(@angular/compiler@20.0.0)(typescript@5.8.3))(@angular/core@20.0.0(@angular/compiler@20.0.0)(rxjs@6.6.7)(zone.js@0.15.0))(rxjs@6.6.7))(@angular/compiler-cli@20.0.0(@angular/compiler@20.0.0)(typescript@5.8.3))(@angular/core@20.0.0(@angular/compiler@20.0.0)(rxjs@6.6.7)(zone.js@0.15.0)))(@angular/common@20.0.0(@angular/compiler-cli@20.0.0(@angular/compiler@20.0.0)(typescript@5.8.3))(@angular/core@20.0.0(@angular/compiler@20.0.0)(rxjs@6.6.7)(zone.js@0.15.0))(rxjs@6.6.7))(@angular/compiler-cli@20.0.0(@angular/compiler@20.0.0)(typescript@5.8.3))(@angular/core@20.0.0(@angular/compiler@20.0.0)(rxjs@6.6.7)(zone.js@0.15.0))
       '@angular/platform-server': 20.0.0(55cc2hhoyu4jmltgjz2lflk43q)
-      '@angular/ssr': 20.0.0(@angular/common@20.0.0(@angular/compiler-cli@20.0.0(@angular/compiler@20.0.0)(typescript@5.8.3))(@angular/core@20.0.0(@angular/compiler@20.0.0)(rxjs@6.6.7)(zone.js@0.15.0))(rxjs@6.6.7))(@angular/core@20.0.0(@angular/compiler@20.0.0)(rxjs@6.6.7)(zone.js@0.15.0))(@angular/platform-server@20.0.0(55cc2hhoyu4jmltgjz2lflk43q))(@angular/router@20.0.0(2z67y6asict5bh4qa55wsiw6vm))
+      '@angular/ssr': 20.3.6(@angular/common@20.0.0(@angular/compiler-cli@20.0.0(@angular/compiler@20.0.0)(typescript@5.8.3))(@angular/core@20.0.0(@angular/compiler@20.0.0)(rxjs@6.6.7)(zone.js@0.15.0))(rxjs@6.6.7))(@angular/core@20.0.0(@angular/compiler@20.0.0)(rxjs@6.6.7)(zone.js@0.15.0))(@angular/platform-server@20.0.0(55cc2hhoyu4jmltgjz2lflk43q))(@angular/router@20.0.0(2z67y6asict5bh4qa55wsiw6vm))
       karma: 6.4.4
       less: 4.3.0
       lmdb: 3.3.0
@@ -9134,7 +9134,7 @@ snapshots:
       - '@angular/compiler-cli'
       - supports-color
 
-  '@angular/ssr@20.0.0(@angular/common@20.0.0(@angular/compiler-cli@20.0.0(@angular/compiler@20.0.0)(typescript@5.8.3))(@angular/core@20.0.0(@angular/compiler@20.0.0)(rxjs@6.6.7)(zone.js@0.15.0))(rxjs@6.6.7))(@angular/core@20.0.0(@angular/compiler@20.0.0)(rxjs@6.6.7)(zone.js@0.15.0))(@angular/platform-server@20.0.0(55cc2hhoyu4jmltgjz2lflk43q))(@angular/router@20.0.0(2z67y6asict5bh4qa55wsiw6vm))':
+  '@angular/ssr@20.3.6(@angular/common@20.0.0(@angular/compiler-cli@20.0.0(@angular/compiler@20.0.0)(typescript@5.8.3))(@angular/core@20.0.0(@angular/compiler@20.0.0)(rxjs@6.6.7)(zone.js@0.15.0))(rxjs@6.6.7))(@angular/core@20.0.0(@angular/compiler@20.0.0)(rxjs@6.6.7)(zone.js@0.15.0))(@angular/platform-server@20.0.0(55cc2hhoyu4jmltgjz2lflk43q))(@angular/router@20.0.0(2z67y6asict5bh4qa55wsiw6vm))':
     dependencies:
       '@angular/common': 20.0.0(@angular/compiler-cli@20.0.0(@angular/compiler@20.0.0)(typescript@5.8.3))(@angular/core@20.0.0(@angular/compiler@20.0.0)(rxjs@6.6.7)(zone.js@0.15.0))(rxjs@6.6.7)
       '@angular/core': 20.0.0(@angular/compiler@20.0.0)(rxjs@6.6.7)(zone.js@0.15.0)
