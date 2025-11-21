@@ -153,7 +153,7 @@
     "vrsource-tslint-rules": "6.0.0",
     "yaml": "^1.10.2",
     "yargs": "^17.3.1",
-    "zx": "^6.2.4"
+    "zx": "^8.8.5"
   },
   "pnpm": {
     "overrides": {
